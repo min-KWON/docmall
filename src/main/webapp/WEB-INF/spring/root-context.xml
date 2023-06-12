@@ -29,8 +29,8 @@
 		<property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@localhost:1521:xe" />
 		
 		
-		<property name="username" value="springuser" />
-		<property name="password" value="springuser" />
+		<property name="username" value="" />
+		<property name="password" value="" />
 	</bean>
 	<!-- HikariDataSource 의 조상   -> HikariDataSource extends HikariConfig implements DataSource -->
 	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
